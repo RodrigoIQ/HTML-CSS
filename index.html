@@ -1,48 +1,36 @@
-<!DOCTYPE html> <!--tell the browser we are using htmls 5-->
-<html lang="en"> <!-- start the site and tell the browser the languae of the site -->
-<head><!-- in the head you write all the info your browser needs tu run and it is not seen by the user-->
-    <meta charset="UTF-8"> <!--meta tags close itself -- UTF-8 is so that the browser can see secial charcters-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--this si so that the page loads on every divice screen size-->
-    <meta name="description" content="my first Website"><!--ths tells google infortation to show-->
-    <meta name="robots" content="index,follow"><!--tells serch engins they can use your index-->
-    <title>RIQ site</title> <!--The name you see on top of the tap-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
-<body> <!-- user will see this-->
-    <header> <!--top part of the site-->
-        <nav> </nav><!--navigation bar-->
-    </header>
-    <main><!-- main part of the site-->
-      <H1>I'm your groceries list!</H1>
-      <Ul>
-          <li>
-              Fruits 
-              <ol>
-                  <li>Apple</li>
-                  <li>oranges</li>
-                  <li>bananas</li>
-              </ol>
-          </li>
-          <li>
-              Meat 
-              <ol>
-                  <li>chicken breast</li>
-                  <li>Steak</li>
-              </ol>
-          </li>
-          <li>
-              Vegetables
-              <ol>
-                  <li>Spinach</li>
-                  <li>Carrots</li>
-                  <li>Kale</li>
-              </ol>
-          </li>
-      </Ul>
-      <p>for next week</p>
-      <p>RIQ</p>
-    </main>
-    <footer> <!-- bottom part of the site-->
-
-    </footer>
+<body><!--correct form structure with lable-->
+    <form action="">
+        <label for="hour">
+            <span>Hour</span>
+            <input type="time" id="hour" name="hour"/>
+        </label>
+        <label for="day">
+            <span>Day</span><!--text shown left of the input box-->
+            <input type="date" id="day" name="day"/>
+        </label>
+        <label for="week">
+            <span>Week</span>
+            <input type="week" id="week" name="week"/>
+        </label>
+        <label for="month">
+            <span>Month</span>
+            <input type="month" id="month" name="month"/> 
+        </label>
+        <input type="submit"/>
+    </form>   
+    <form action="">
+        <label for="calendar">
+            <span>Calendar</span>
+            <input type="datetime-local" id="calendar" name="calendar"/> 
+        </label>
+        <input type="submit">
+    </form>
 </body>
 </html>
