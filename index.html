@@ -5,32 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body><!--correct form structure with lable-->
+<body>
     <form action="">
-        <label for="hour">
-            <span>Hour</span>
-            <input type="time" id="hour" name="hour"/>
+        <label for="name">
+            <span>What is your name ?</span>
+            <input type="text" name="name" id="name" autocomplete="name" required/>
         </label>
-        <label for="day">
-            <span>Day</span><!--text shown left of the input box-->
-            <input type="date" id="day" name="day"/>
+        <label for="email">
+            <span>What is your email?</span>
+            <input type="email" name="email" id="email" autocomplete="email" required/>
         </label>
-        <label for="week">
-            <span>Week</span>
-            <input type="week" id="week" name="week"/>
+        <label for="contry">
+            <span>What country do you live in?</span>
+            <input type="text" name="contry" id="contry" autocomplete="country" required/>
         </label>
-        <label for="month">
-            <span>Month</span>
-            <input type="month" id="month" name="month"/> 
-        </label>
-        <input type="submit"/>
-    </form>   
-    <form action="">
-        <label for="calendar">
-            <span>Calendar</span>
-            <input type="datetime-local" id="calendar" name="calendar"/> 
+        <label for="zip">
+            <span>Zip code</span>
+            <input type="text" name="zip" id="zip" autocomplete="postal-code" required/>
         </label>
         <input type="submit">
     </form>
+    
 </body>
 </html>
