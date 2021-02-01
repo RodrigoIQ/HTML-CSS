@@ -1,24 +1,8 @@
-.main-nav{
-    margin: 10px;/*space between types*/
-    list-style: none;/*remove bullets*/
-    padding-left: 10px;/*spaccing insede container*/
-    background-color: #1877f2;
-}
-.main-nav__item{
-    display: inline-block; /*make the list horizontal*/
-}
-.main-nav__item a{ /*here we are beeing specific on the tag for all a tags inside mani-nav item*/
-    color:  white;
-    padding: 5px;
-    text-decoration: none;
-}
-.main-nav__item a:hover{ /*Pseudo classs cahnges elemnt when whover */
-    color: #000;
-}
-.main-nav__item a:active{ /*Pseudo class */
-    color: blue;
+html{
+    font-size: 75%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.main-nav__item a::after{ /*Pseudo element */
-    content: " | ";
-} 
+h1{
+    font-size: inherit;
+}
